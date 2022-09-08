@@ -1,6 +1,7 @@
 import  "./Footerstyles.css";
 import React from 'react'
 import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -32,9 +33,9 @@ const Footer = () => {
             
             <p>Its just a project now nothing aini the about section sorry for this shit</p>
             <div className="Social">
-                <FaFacebook size={25} style={{color:"#fff"}}/>
-                <FaLinkedin size={25} style={{color:"#fff"}}/>
-                <FaGithub size={25} style={{color:"#fff"}}/>
+            <a href="https://www.facebook.com/abinashchhetri.chhetri/">   <FaFacebook size={25} style={{color:"#fff"}}/></a> 
+                <a href="https://www.linkedin.com/in/abinash-chhetri-4b080a20b/"><FaLinkedin size={25} style={{color:"#fff"}}/></a>
+                <a href="https://github.com/Abinash17a"><FaGithub size={25} style={{color:"#fff"}}/></a>
 
             </div>
         </div>

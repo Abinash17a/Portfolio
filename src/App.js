@@ -3,7 +3,7 @@ import "./index.css";
 import Home from "./Routes/Home";
 import Contact from "./Routes/Contact";
 import About from "./Routes/About";
-import project from "./Routes/project";
+import Project from "./Routes/project";
 
 import{Route,Routes} from "react-router-dom";
 
@@ -14,7 +14,7 @@ function App() {
     <Routes>
       
      <Route path="/" element={<Home/>} />
-     <Route path="/project" element={<project/>} />
+     <Route path="/project" element={<Project/>} />
      <Route path="/about" element={<About/>} />
      <Route path="/contact" element={<Contact/>} />
     

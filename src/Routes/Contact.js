@@ -1,9 +1,14 @@
 import React from 'react'
+import Heroimagec from '../components/Heroimagec';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 const Contact = () => {
   return (
     <div>
-      <h1>Contact</h1>
+      <Navbar/>
+      <Heroimagec/>
+      <Footer/>
     </div>
   )
 }
