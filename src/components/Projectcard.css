@@ -1,0 +1,73 @@
+.projectcard{
+    width: 100%;
+    padding: 5rem 1rem;
+    background-color: black;
+}
+.pcard-container{ 
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    grid-gap:40px ;
+    /* align-items: center; */
+}
+.heading{
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.T-img{
+    /* width: 350px; */
+    width: 100%;
+}
+.D-img{
+    /* width: 300px;
+    height: 250px; */
+    width: 100%;
+    height: 72%;
+}
+.pro-name{
+    font-size: 1.4rem;
+    padding-bottom: 1.5%;
+    font-weight: 500;
+}
+p{
+    font-size: 1rem;
+}
+.pcard{
+    background-color: #141414;
+    border: 1px solid #fff;
+    color: white;
+    padding: 1rem;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.pcard:hover{
+    background-color: #141415;
+}
+.pbtn{
+    /* text-align: right; */
+    display: flex;
+    padding: 3%;
+    margin:auto;
+    width: 140px;    
+    margin-top:10px ;
+}
+@media screen and (max-width:768px) {
+
+    .pcard-container{
+    margin: auto;
+    grid-template-columns: 1fr; 
+      /* grid-gap:40px ;  */
+     } 
+     .pcard{
+        height: 500px;
+     }
+     .T-img{
+        height: 70%;
+     }
+    
+ } 
